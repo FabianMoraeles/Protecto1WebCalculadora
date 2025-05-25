@@ -1,8 +1,8 @@
-/* Fondo tecnológico verde neón */
+
 body {
   margin: 0;
   height: 100vh;
-  background-color: #000a0f; /* fondo muy oscuro */
+  background-color: #000a0f;
   background-image:
     repeating-linear-gradient(
       45deg,
@@ -25,7 +25,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Contenedor general */
+
 .calculator {
   width: 320px;
   background: #222831;
@@ -35,7 +35,7 @@ body {
   user-select: none;
 }
 
-/* Display */
+
 .display {
   background: #393E46;
   color: #EEEEEE;
@@ -49,14 +49,14 @@ body {
   overflow-x: auto;
 }
 
-/* Contenedor de botones */
+
 .buttons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 15px;
 }
 
-/* Botones generales */
+
 .buttons button {
   background: #00ADB5;
   border: none;
@@ -70,7 +70,7 @@ body {
   box-shadow: 0 4px 8px rgba(0,173,181,0.5);
 }
 
-/* Hover y activo */
+
 .buttons button:hover {
   background-color: #019ca1;
   transform: translateY(-2px);
@@ -82,7 +82,7 @@ body {
   box-shadow: none;
 }
 
-/* Botones operadores */
+
 .buttons button.operator {
   background: #FF5722;
   box-shadow: 0 4px 8px rgba(255, 87, 34, 0.6);
@@ -97,12 +97,12 @@ body {
   box-shadow: none;
 }
 
-/* Botón C más grande */
+
 .buttons button.operator.C {
   grid-column: span 2;
 }
 
-/* Ajuste para botón 0 para que ocupe dos columnas */
+
 .buttons button.zero {
   grid-column: span 2;
 }
